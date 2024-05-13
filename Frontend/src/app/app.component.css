@@ -1,0 +1,7 @@
+.background-image {
+    background-image: url('../assets/food_48px_White_BG_preview.jpg'); /* Replace 'background-image.jpg' with the actual filename of your image */
+    background-size: cover; /* This ensures that the image covers the entire background */
+  /* background-repeat: no-repeat; */
+    /* Add any additional background styling here, such as background position or background color */
+  }
+  

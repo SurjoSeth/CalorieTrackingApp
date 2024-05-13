@@ -1,0 +1,39 @@
+/* CSS for the toolbar */
+.mat-toolbar {
+  display: flex;
+  justify-content: space-between; /* Align items at the start and end */
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%; /* Ensure toolbar spans the entire width */
+  z-index: 1000;
+}
+
+.boton {
+  background: #fff;
+  margin-left: 8px; 
+  margin-right: 8px; 
+}
+
+/* Add margin to the right side of the app title */
+.app-title {
+  margin-right: auto; /* Pushes the title to the far left */
+}
+
+/* Styling for the clickable app title */
+.app-title {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+/* Styling for the toolbar buttons */
+
+
+/* Styling for the toolbar background color */
+.mat-toolbar-color-primary {
+  background-color: #1976d2; /* Adjust the color as needed */
+}

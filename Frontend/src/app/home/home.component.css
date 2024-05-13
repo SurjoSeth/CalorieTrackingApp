@@ -1,0 +1,111 @@
+
+  .pgcon {
+    width: 90%;
+    margin: 0 auto; /* Centers the container horizontally */
+    background-color: transparent; /* Sets the background color to white */
+    padding: 20px; /* Adds some padding to the container */
+    /* overflow-y: hidden; */
+    height: auto;
+  }
+
+  .ot {
+    width: 90%;
+    height: auto;
+    margin: 0 auto; /* Centers the container horizontally */
+    background-color: #fff; /* Sets the background color to white */
+    padding: 20px; /* Adds some padding to the container */
+  }
+  .wt{
+    font-weight: bold; /* Make the text bold */
+      text-align: left; /* Align the text to the center */
+      padding-top: 10px; /* Provide padding top */
+    
+  }
+  .nwt{
+    font-weight: bold; /* Make the text bold */
+    font-size: x-large;
+    color: #0d6efd;
+      text-align: left; /* Align the text to the center */
+      padding-top: 10px; /* Provide padding top */
+    
+  }
+  
+  .green-bar {
+    background-color: green !important; /* Sets the background color to green */
+  }
+  
+  .red-bar {
+    background-color: red !important; /* Sets the background color to red */
+  }
+
+  .PM {
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Align the text to the center */
+    padding-top: 10px; /* Provide padding top */
+  }
+
+ .row{
+  margin: 0 auto;
+ }
+
+ .chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .jumbotron{
+  margin-bottom: 2%;
+ }
+
+ .custom-text-bg-success{
+  background-color: green; /* Blue */
+    color: #fff; /* White text */
+ }
+
+ .custom-text-bg-info{
+  background-color: orange; /* Blue */
+    color: #fff; /* White text */
+ }
+
+ .custom-text-bg-warning{
+  background-color: purple; /* Blue */
+    color: #fff; /* White text */
+ }
+
+ .date-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date-input label {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.date-input input[type="date"] {
+  width: 150px; /* Adjust width as needed */
+}
+
+/* Optional CSS for card and chart */
+.abc {
+  height: 100%;
+  
+}
+
+.food{
+  max-height: 200px; 
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.chart-container {
+  height: 300px; /* Adjust height as needed */
+  width: 100%;
+}
+
+
